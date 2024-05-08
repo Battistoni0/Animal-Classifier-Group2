@@ -1,16 +1,22 @@
-# ia2flutter
+# Clasificador de Animales
 
-A new Flutter project.
+Este es un proyecto de Flutter que utiliza TensorFlow Lite para clasificar imágenes de animales.
 
-## Getting Started
+## Instalación de Flutter
 
-This project is a starting point for a Flutter application.
+Para comenzar a trabajar con este proyecto, sigue los siguientes pasos para instalar Flutter en tu sistema:
 
-A few resources to get you started if this is your first Flutter project:
+1. **Descargar Flutter:** Visita la [página oficial de Flutter](https://flutter.dev/docs/get-started/install) y sigue las instrucciones de instalación según tu sistema operativo (Windows, macOS, Linux).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. **Configuración del Entorno:** Después de instalar Flutter, asegúrate de configurar correctamente tu entorno de desarrollo siguiendo las [instrucciones de la documentación oficial](https://flutter.dev/docs/get-started/editor).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Compilar el Código
+
+Antes de ejecutar el código, asegúrate de tener todos los paquetes y dependencias necesarios instalados. Abre una terminal en la raíz del proyecto y ejecuta el siguiente comando para instalar las dependencias:
+
+```bash
+flutter pub get
+```
+## Modificar el Modelo
+
+Si deseas cambiar el modelo a utilizar tienes que cambiar los archivos de de assets, tanto el modelo.tflite, como el labels.txt y luego modificar sus menciones en el main.dart
