@@ -19,4 +19,4 @@ flutter pub get
 ```
 ## Modificar el Modelo
 
-Si deseas cambiar el modelo a utilizar tienes que cambiar los archivos de de assets, tanto el modelo.tflite, como el labels.txt y luego modificar sus menciones en el main.dart
+Si deseas cambiar el modelo a utilizar tienes que cambiar los archivos de de assets, tanto el modelo.tflite, como el labels.txt y luego modificar sus menciones en el main.dart.
